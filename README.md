@@ -360,3 +360,47 @@ docker compose exec frontend npm install
 ## 10. Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+
+# cambios hecho por Rafael 
+
+## Desarrollo local con docker 
+En mi caso lo he realizado con AWS en local me daba fallos 
+
+### levantamiento servicios docker 
+![alt text](<fotos/desarrollo local con docker/1.levantamiento sevicios docker .png>)
+
+### comprobacion de que el backend funciona y el frontend funciona 
+![alt text](<fotos/desarrollo local con docker/2.backend funcionando .png>)
+![alt text](<fotos/desarrollo local con docker/3.frontend funcionando .png>)
+
+## despliegue del backend
+
+### despliegue de la base de datos con railway 
+![alt text](<fotos/despliegue backend/1.despligue base de datos railway.png>)
+
+### creacion servicio web con render
+![alt text](<fotos/despliegue backend/2.creacion servicio web .png>)
+
+### unir a git hub para automatizacion de despligue al realizar un push 
+![alt text](<fotos/despliegue backend/4.todo funciona.png>)
+![alt text](<fotos/despliegue backend/5.todo funciona 2.png>)
+
+## despliegue del fronted
+
+### creacion proyecto vercel 
+![alt text](<fotos/despliegue fronted/1.nuevo proyecto vercel config.png>)
+
+### comprobacion de que funciona 
+![alt text](<fotos/despliegue fronted/2.front funcionando.png>)
+
+### creacion de tokens en vercel 
+![alt text](<fotos/despliegue fronted/3.TOKENS vercel.png>)
+
+### creacion de los actions necesarios para la automatizacion 
+![alt text](<fotos/despliegue fronted/4.todos los actions.png>)
+
+### comprobacion de que funciona al hacer un push 
+![alt text](<fotos/despliegue fronted/5. todo funciona 1.png>)
+
+### comprobacion de que funciona render al realizar un cambio
+![alt text](<fotos/despliegue fronted/6.todo funciona 2.png>)
