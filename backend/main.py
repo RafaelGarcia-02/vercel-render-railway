@@ -19,7 +19,7 @@ app = FastAPI(
 
 Base = declarative_base()
 
-
+# esto es un cambio en el backend
 class Item(Base):
     __tablename__ = "items"
 
