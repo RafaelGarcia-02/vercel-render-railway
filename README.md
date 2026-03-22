@@ -1,5 +1,6 @@
 # Despliegue en Vercel, Render y Railway
 esto es un cambio de Rafael Pablo Garcia
+esto es un cambio
 
 Este repositorio es una guía práctica para aprender a estructurar, dockerizar y desplegar una aplicación web siguiendo los principios de **CI/CD** con **GitHub Actions**, **Vercel**, **Render** y **Railway**.
 
